@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.concrete.leite.nerdanimation">
+    package="br.com.concrete.leite.animations">
 
     <application
         android:allowBackup="true"
@@ -9,43 +9,43 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".basic.BasicActivity">
+        <activity android:name="br.com.concrete.leite.animations.basic.BasicActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".transition.FirstActivity">
+        <activity android:name="br.com.concrete.leite.animations.transition.FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".transition.SecondActivity" />
-        <activity android:name=".cardflip.CardFlipAnimationActivity">
+        <activity android:name="br.com.concrete.leite.animations.transition.SecondActivity" />
+        <activity android:name="br.com.concrete.leite.animations.cardflip.CardFlipAnimationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".crossfade.CrossfadeViewActivity">
+        <activity android:name="br.com.concrete.leite.animations.crossfade.CrossfadeViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".slideheight.SlideHeightAnimationActivity">
+        <activity android:name="br.com.concrete.leite.animations.slideheight.SlideHeightAnimationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".recyclerview.RecyclerViewActivity">
+        <activity android:name="br.com.concrete.leite.animations.recyclerview.RecyclerViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -53,7 +53,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".circularreveal.CircularRevealActivity"
+            android:name="br.com.concrete.leite.animations.circularreveal.CircularRevealActivity"
             android:label="@string/title_activity_circular_reveal"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>

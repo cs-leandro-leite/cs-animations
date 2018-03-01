@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.com.concrete.leite.nerdanimation.transition.SecondActivity"
+    tools:context="br.com.concrete.leite.animations.transition.SecondActivity"
     android:background="@color/blue_sky">
 
 </android.support.constraint.ConstraintLayout>

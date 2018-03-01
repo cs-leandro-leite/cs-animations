@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="br.com.concrete.leite.nerdanimation.circularreveal.CircularRevealActivity"
+    tools:context="br.com.concrete.leite.animations.circularreveal.CircularRevealActivity"
     tools:showIn="@layout/activity_circular_reveal">
 
 </android.support.constraint.ConstraintLayout>
