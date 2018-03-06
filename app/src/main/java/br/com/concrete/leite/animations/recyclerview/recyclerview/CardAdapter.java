@@ -9,7 +9,7 @@ import br.com.concrete.leite.animations.R;
 
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
 
-    public static final int ITEM_COUNT = 64;
+    public static final int ITEM_COUNT = 30;
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
